@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>clang_version</key>
+<string>Apple LLVM version 7.0.0 (clang-700.0.72)</string>
+ <key>files</key>
+ <array>
+  <string>/Users/ryan/openFrameworks/libs/openFrameworks/3d/ofMesh.cpp</string>
+ </array>
+ <key>diagnostics</key>
+ <array>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>2088</integer>
+      <key>col</key><integer>9</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>ranges</key>
+     <array>
+       <array>
+        <dict>
+         <key>line</key><integer>2088</integer>
+         <key>col</key><integer>22</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>2088</integer>
+         <key>col</key><integer>42</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+     </array>
+     <key>depth</key><integer>0</integer>
+     <key>extended_message</key>
+     <string>Value stored to &apos;vertOffset&apos; is never read</string>
+     <key>message</key>
+     <string>Value stored to &apos;vertOffset&apos; is never read</string>
+    </dict>
+   </array>
+   <key>description</key><string>Value stored to &apos;vertOffset&apos; is never read</string>
+   <key>category</key><string>Dead store</string>
+   <key>type</key><string>Dead assignment</string>
+  <key>issue_context_kind</key><string>C++ method</string>
+  <key>issue_context</key><string>cylinder</string>
+  <key>issue_hash</key><string>181</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>2088</integer>
+   <key>col</key><integer>9</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+ </array>
+</dict>
+</plist>
